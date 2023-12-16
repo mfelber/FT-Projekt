@@ -5,7 +5,7 @@
             "slug": "pc",
             "id": 1,
 
-            "pc-games": [
+            "games": [
                 {
                     "name": "Metro Exodus",
                     "slug": "metro-exodus",
@@ -25,7 +25,7 @@
             "slug": "playstation",
             "id": 2,
             
-            "playstation-games":[
+            "games":[
                 {
                     "name": "God of War",
                     "slug": "god-of-war",
@@ -45,7 +45,7 @@
             "slug": "xbox",
             "id": 3,
             
-            "xbox-games":[
+            "games":[
                 {
                     "name": "It Takes Two",
                     "slug": "it-takes-two",

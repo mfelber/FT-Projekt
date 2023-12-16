@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue';
 import GamesView from '../views/GamesView.vue';
+import Cart from '../components/Cart.vue';
 
 
 const router = createRouter({
@@ -24,6 +25,11 @@ const router = createRouter({
       props: true,
       
     },
+    {
+      path: '/cart',
+      name: 'cart',
+      component: Cart
+    }
   ],
 });
 

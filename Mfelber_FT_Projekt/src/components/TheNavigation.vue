@@ -7,14 +7,21 @@
         :to="{ name: 'game', params: { slug: game.slug } }" exact>
         {{ game.name }}
         </RouterLink>
-      
+        <RouterLink to="/cart" style="margin-left: 60%;"><v-icon>mdi-cart</v-icon></RouterLink>
+
+
             </nav>
+           
         </div>
     </header>
 </template>
 <script>
 import Store from '../data.json'
+import Cart from  '../components/Cart.vue'
 export default{
+    components:{
+        Cart
+    },
     data() {
         return {
             store: Store.store
