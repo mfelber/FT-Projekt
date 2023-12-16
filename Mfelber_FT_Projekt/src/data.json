@@ -1,0 +1,64 @@
+{
+    "store": [
+        {
+            "name": "PC-Games",
+            "slug": "pc",
+            "id": 1,
+
+            "pc-games": [
+                {
+                    "name": "Metro Exodus",
+                    "slug": "metro-exodus",
+                    "price": "60 €",
+                    "image": "metro-exodus.jpg"
+                },
+                {
+                    "name": "The Last of Us ",
+                    "slug": "the-last-of-us",
+                    "price": "55 €",
+                    "image": "the-last-of-us.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Playstation-Games",
+            "slug": "playstation",
+            "id": 2,
+            
+            "playstation-games":[
+                {
+                    "name": "God of War",
+                    "slug": "god-of-war",
+                    "price": "30 €",
+                    "image": "god-of-war.jpg"
+                },
+                {
+                    "name": "Battlefield 1",
+                    "slug": "battlefield-1",
+                    "price": "45 €",
+                    "image": "battlefield-1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Xbox-Games",
+            "slug": "xbox",
+            "id": 3,
+            
+            "xbox-games":[
+                {
+                    "name": "It Takes Two",
+                    "slug": "it-takes-two",
+                    "price": "40 €",
+                    "image": "it-takes-two.jpg"
+                },
+                {
+                    "name": "Crash Bandicoot",
+                    "slug": "crash-bandicoot",
+                    "price": "15 €",
+                    "image": "crash-bandicoot.jpg"
+                }
+            ]
+        }
+    ]
+}
