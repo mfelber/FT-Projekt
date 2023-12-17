@@ -1,11 +1,16 @@
 <template>
-    
-    <div v-for="games in games.games" :key="games.slug">
-        <div>
-            <img :src="'/images/' + games.image" :alt="games.name">            
+    <div class="home">
+    <div v-for="games in games.games" :key="games.slug" class="game-container">
+        <div class="game-frame">
+            <img :src="'/images/' + games.image" :alt="games.name">
+            <div class="game-details">
+            <h3>{{ games.name }}</h3>
+            <h3>{{ games.price }}</h3>
             <button>TO CART</button>
+            </div>         
         </div>
     </div>
+</div>
 
 </template>
 <script>
@@ -33,3 +38,13 @@ export default{
     }
 }
 </script>
+<style>
+  .game-container {
+    display: inline-block; /* Display games side by side */
+    margin-right: 20px; /* Add some spacing between games */
+  }
+
+  .game-details {
+    text-align: center; /* Center the content within each game container */
+  }
+</style>
