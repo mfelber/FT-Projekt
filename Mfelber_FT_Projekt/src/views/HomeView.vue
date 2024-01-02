@@ -17,8 +17,6 @@
 </template>
 
 <style>
-
-
 </style>
 
 <script>

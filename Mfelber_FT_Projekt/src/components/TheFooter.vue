@@ -1,5 +1,13 @@
 <template>
-    <footer id="footer">
+  <header>
+
+  </header>
+  <body>
+
+
+  </body>
+  <section>
+    <footer id="footer" style="position: sticky bottom: 0;;">
       <div class="footer-container">
         <div class="footer-section">
           <h4>Kontakt</h4>
@@ -18,6 +26,8 @@
         </div>
       </div>
     </footer>
+  </section>
+    
   </template>
   
   <style>
@@ -52,5 +62,6 @@
       opacity: 1;
       color: blue;
     }
+
   </style>
   

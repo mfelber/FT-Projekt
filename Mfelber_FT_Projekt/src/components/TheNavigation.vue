@@ -7,7 +7,11 @@
         :to="{ name: 'game', params: { slug: game.slug } }" exact>
         {{ game.name }}
         </RouterLink>
-        <RouterLink to="/cart" style="margin-left: 60%;"><v-icon>mdi-cart</v-icon></RouterLink>
+        <RouterLink to="/cart" style="margin-left: auto;">
+  <v-icon>mdi-cart</v-icon> 
+  <!-- <Cart></Cart> -->
+</RouterLink>
+
             </nav>          
         </div>
     </header>

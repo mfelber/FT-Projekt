@@ -7,12 +7,14 @@
 
             "games": [
                 {
+                    "gameID":1,
                     "name": "Metro Exodus",
                     "slug": "metro-exodus",
                     "price": "60 €",
                     "image": "metro-exodus.jpg"
                 },
                 {
+                    "gameID":2,
                     "name": "The Last of Us ",
                     "slug": "the-last-of-us",
                     "price": "55 €",
@@ -27,12 +29,14 @@
             
             "games":[
                 {
+                    "gameID":3,
                     "name": "God of War",
                     "slug": "god-of-war",
                     "price": "30 €",
                     "image": "god-of-war.jpg"
                 },
                 {
+                    "gameID":4,
                     "name": "Battlefield 1",
                     "slug": "battlefield-1",
                     "price": "45 €",
@@ -47,12 +51,14 @@
             
             "games":[
                 {
+                    "gameID":5,
                     "name": "It Takes Two",
                     "slug": "it-takes-two",
                     "price": "40 €",
                     "image": "it-takes-two.jpg"
                 },
                 {
+                    "gameID":6,
                     "name": "Crash Bandicoot",
                     "slug": "crash-bandicoot",
                     "price": "15 €",
