@@ -8,10 +8,7 @@
         {{ game.name }}
         </RouterLink>
         <RouterLink to="/cart" style="margin-left: 60%;"><v-icon>mdi-cart</v-icon></RouterLink>
-
-
-            </nav>
-           
+            </nav>          
         </div>
     </header>
 </template>

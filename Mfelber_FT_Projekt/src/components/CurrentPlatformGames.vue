@@ -6,7 +6,8 @@
             <div class="game-details">
             <h3>{{ games.name }}</h3>
             <h3>{{ games.price }}</h3>
-            <button>TO CART</button>
+            <br>
+            <button><v-icon>mdi-cart</v-icon>TO CART</button>
             </div>         
         </div>
     </div>
@@ -40,11 +41,11 @@ export default{
 </script>
 <style>
   .game-container {
-    display: inline-block; /* Display games side by side */
-    margin-right: 20px; /* Add some spacing between games */
+    display: inline-block; 
+    margin-right: 20px; 
   }
 
   .game-details {
-    text-align: center; /* Center the content within each game container */
+    text-align: center; 
   }
 </style>
