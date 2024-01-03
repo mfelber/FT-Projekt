@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue';
 import GamesView from '../views/GamesView.vue';
 import Cart from '../components/Cart.vue';
+import Orders from '../components/Orders.vue';
 
 
 const router = createRouter({
@@ -29,6 +30,11 @@ const router = createRouter({
       path: '/cart',
       name: 'cart',
       component: Cart
+    },
+    {
+      path: '/orders',
+      name: 'orders',
+      component: Orders
     }
   ],
 });
